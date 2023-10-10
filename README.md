@@ -16,13 +16,13 @@ Multiple Linear Regression, XGBoost & Random Forest Regressor (Best)
 ## Main Highlights:
 • Used Standard Scaler for Feature Scaling, One Hot Encoding to convert categorical variables to Numerical Variables
 
-• Dealt with null values: <br />
+• Dealt with null values: 
 
-  • Removed All those columns which have more than 50 % null values <br />
+ <space> • Removed All those columns which have more than 50 % null values 
     
-  • Used "mean" to fill null values in remaining numerical variables <br />
-    
-  • Used "mode" to fill null values in remaining categorical variables variables <br />
+ <space> • Used "mean" to fill null values in remaining numerical variables 
+  
+  <space>• Used "mode" to fill null values in remaining categorical variables variables 
 
 • Considered r2_score to pick the best model, which was Random Forest Regressor with an r2_score of 0.8284 or 82.84 %
 
