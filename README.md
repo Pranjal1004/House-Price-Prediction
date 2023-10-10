@@ -18,11 +18,11 @@ Multiple Linear Regression, XGBoost & Random Forest Regressor (Best)
 
 • Dealt with null values:
 <pre>
-   • Removed All those columns which have more than 50 % null values
+  • Removed All those columns which have more than 50 % null values
     
-   • Used "mean" to fill null values in remaining numerical variables
+  • Used "mean" to fill null values in remaining numerical variables
     
-   • Used "mode" to fill null values in remaining categorical variables variables
+  • Used "mode" to fill null values in remaining categorical variables variables
 </pre>
 • Considered r2_score to pick the best model, which was Random Forest Regressor with an r2_score of 0.8284 or 82.84 %
 
